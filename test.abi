@@ -1,0 +1,57 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "noop",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "nop",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "np",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint32"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "noop",
+            "type": "noop",
+            "ricardian_contract": "---\ntitle: None Operation with cosign permission\nsummary: This function is a dummy function\nicon: https://miro.medium.com/max/6562/1*GtCu5Kjf_jpbdXiUr1CM9A.png#b8f0e1c8be50d7f8bda87d393773486851be762edf86fcac968d370d4fa0a3d8\n---\nThe authorization provided is {{$action.authorization.[0].actor}}. This function does nothing."
+        },
+        {
+            "name": "nop",
+            "type": "nop",
+            "ricardian_contract": "---\ntitle: None Operation with active permission\nsummary: This function is a dummy function\nicon: https://miro.medium.com/max/6562/1*GtCu5Kjf_jpbdXiUr1CM9A.png#b8f0e1c8be50d7f8bda87d393773486851be762edf86fcac968d370d4fa0a3d8\n---\nThe authorization provided is {{$action.authorization.[0].actor}}. This function does nothing."
+        },
+        {
+            "name": "np",
+            "type": "np",
+            "ricardian_contract": "---\ntitle: None Operation Without Auth\nsummary: This function is a dummy function\nicon: https://miro.medium.com/max/6562/1*GtCu5Kjf_jpbdXiUr1CM9A.png#b8f0e1c8be50d7f8bda87d393773486851be762edf86fcac968d370d4fa0a3d8\n---\nThis action does nothing and does not require any authorization."
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "variants": []
+}
